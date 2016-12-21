@@ -8,6 +8,8 @@ projects or images with CI-only module references.
 
 ## Usage
 
+Assuming you want to inject `modulename@1.2.3` and `modulename2@2.0.0`, but also scrub `old-module-name` from `./tests/functional/magellan.json`, and have `modulename@1.2.3` and `modulename2@2.0.0` installed:
+
 ```shell
 magellan-dep-injector --include=modulename@1.2.3,modulename2@2.0.0 --exclude=old-module-name --config_path=./tests/functional
 ```
