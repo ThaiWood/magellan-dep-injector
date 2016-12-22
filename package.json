@@ -1,0 +1,32 @@
+{
+  "name": "testarmada-magellan-dep-injector",
+  "version": "1.0.0",
+  "description": "A module for injecting Magellan dependencies in CI environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TestArmada/magellan-dep-injector.git"
+  },
+  "dependencies": {
+    "mock-fs": "^3.12.1",
+    "npm-package-arg": "^4.2.0",
+    "yargs": "^4.6.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.2.4"
+  },
+  "bin": {
+    "magellan-dep-injector": "./bin/magellan-dep-injector"
+  },
+  "contributors": [
+    {
+      "name": "Maciej Adwent",
+      "url": "http://github.com/Maciek416"
+    }
+  ],
+  "license": "MIT"
+}
