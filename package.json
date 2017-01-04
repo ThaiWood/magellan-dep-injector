@@ -1,6 +1,6 @@
 {
   "name": "testarmada-magellan-dep-injector",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A module for injecting Magellan dependencies in CI environments",
   "main": "index.js",
   "scripts": {
