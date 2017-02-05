@@ -11,7 +11,7 @@
     "url": "git@github.com:TestArmada/magellan-dep-injector.git"
   },
   "dependencies": {
-    "mock-fs": "^3.12.1",
+    "mock-fs": "^4.0.0",
     "npm-package-arg": "^4.2.0",
     "yargs": "^6.5.0"
   },
